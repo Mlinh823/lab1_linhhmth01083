@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hearder bg-dark" style="width: 100%;height: 100%; text-align: center;">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="bai1.html">
+                <img src="img/logo.jpg" alt="" style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="lab1.html"><i class="fa-solid fa-list"></i>Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i> Voucher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Sự kiện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i> Kết nối</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i
+                                class="fa-solid fa-user"></i> Tài khoản</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                            <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i>Thông báo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i class="fa-solid fa-globe"></i> Ngôn ngữ</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tiếng anh</a></li>
+                            <li><a class="dropdown-item" href="#">Tiếng việt</a></li>
+                            <li><a class="dropdown-item" href="#">Khác</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i>Phản hồi</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <label for=""><input type="text" placeholder="Tìm kiếm" style="width: 800px; height: 50px; margin-bottom: 10px;"></label> <button><i
+        class="fa-solid fa-magnifying-glass"></i>Tìm kiếm</button> 
+</div><br>
+          <div class="loc" style="width: 100%;">  <h3>Lọc: </h3>
+            <P style="float: left;margin-left: 20px;">Loại</P><select class="form-select" style="width: 200px; margin-left: 20px; float: left;">
+                 <option>Điện tử</option>
+                 <option>Đồ gia dụng</option>
+                 <option>Thời trang</option>
+                 <option>Đồ ăn</option>
+                 </select>
+
+                 <P style="float: left;margin-left: 20px;">Trạng thái</P>
+                 <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group" style="float: left;margin-left: 20px;" >
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck1">Mới</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck2">Đã qua sử dụng</label>
+                  </div>
+         </div><br><br>
+         <div class="sp" style="text-align: center;">
+            <h2>Sản phẩm: </h2><br>
+            <div class="row">
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="img/ip.jpg" alt="" width="100%" height="60%"  data-bs-toggle="modal" 
+                    data-bs-target="#productModal" 
+                    style="cursor: pointer;">
+                    <h5>Điện thoại iphone 15 tím</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 22%; margin-right: 5px;">25.000.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000.000</p></h5>
+                </div>
+                <div class="col-sm-3" >
+                    <img src="img/vay.webp" alt="" width="100%" height="60%">
+                    <h5>Váy trễ vai thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 27%; margin-right: 5px;">500.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">250.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/tui.webp" alt="" width="100%" height="60%">
+                    <h5>Túi sách nữ thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 28%; margin-right: 5px;">130.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">90.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/kinh.webp" alt="" width="100%" height="60%">
+                    <h5>Kính thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 35%; margin-right: 5px;">50.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000</p></h5>
+                </div>
+
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="img/ip.jpg" alt="" width="100%" height="60%">
+                    <h5>Điện thoại iphone 15 tím</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 22%; margin-right: 5px;">25.000.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000.000</p></h5>
+                </div>
+                <div class="col-sm-3" >
+                    <img src="img/vay.webp" alt="" width="100%" height="60%">
+                    <h5>Váy trễ vai thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 27%; margin-right: 5px;">500.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">250.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/tui.webp" alt="" width="100%" height="60%">
+                    <h5>Túi sách nữ thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 28%; margin-right: 5px;">130.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">90.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/kinh.webp" alt="" width="100%" height="60%">
+                    <h5>Kính thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 35%; margin-right: 5px;">50.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000</p></h5>
+                </div>
+
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="img/ip.jpg" alt="" width="100%" height="60%">
+                    <h5>Điện thoại iphone 15 tím</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 22%; margin-right: 5px;">25.000.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000.000</p></h5>
+                </div>
+                <div class="col-sm-3" >
+                    <img src="img/vay.webp" alt="" width="100%" height="60%">
+                    <h5>Váy trễ vai thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 27%; margin-right: 5px;">500.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">250.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/tui.webp" alt="" width="100%" height="60%">
+                    <h5>Túi sách nữ thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 28%; margin-right: 5px;">130.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">90.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/kinh.webp" alt="" width="100%" height="60%">
+                    <h5>Kính thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 35%; margin-right: 5px;">50.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000</p></h5>
+                </div>
+
+
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="img/ip.jpg" alt="" width="100%" height="60%">
+                    <h5>Điện thoại iphone 15 tím</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 22%; margin-right: 5px;">25.000.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000.000</p></h5>
+                </div>
+                <div class="col-sm-3" >
+                    <img src="img/vay.webp" alt="" width="100%" height="60%">
+                    <h5>Váy trễ vai thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 27%; margin-right: 5px;">500.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">250.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/tui.webp" alt="" width="100%" height="60%">
+                    <h5>Túi sách nữ thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 28%; margin-right: 5px;">130.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">90.000</p></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/kinh.webp" alt="" width="100%" height="60%">
+                    <h5>Kính thời trang</h5>
+                    <p class="text-decoration-line-through" style="float: left; margin-left: 35%; margin-right: 5px;">50.000</p>&ensp;<h5 style="float: left;color: red;" ><p class="fst-italic">20.000</p></h5>
+                </div>
+         </div>
+         <div class="end bg-dark" style="color: white;">
+            <div class="row">
+                <div class="col-sm-6">
+                        <img src="img/logo.jpg" alt="" style="width: 100px;"><br>
+                        <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-tiktok"></i> <i class="fa-brands fa-youtube"></i><br><br>
+                        <h4 class="fst-italic" style="color: silver;">
+                            Thông tin liên hệ
+                        </h4>
+                        <p><i class="fa-solid fa-phone"></i> Điện thoại: 0123456789</p>
+                        <p><i class="fa-solid fa-envelope"></i> email: linhhmth01083@fpt.edu.vn</p>
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="fst-italic" style="color: silver;margin-top: 10px;">
+                        Địa chỉ các cơ sở
+                    </h4>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h6>Cơ sở Hà Nội</h6>
+                            <p><i class="fa-solid fa-location-dot"></i> Cổng số 1, Tòa nhà FPT Polytechnic, 13 phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội
+                            Km12 Cầu Diễn, Phường Phúc Diễn, Quận Bắc Từ Liêm, Hà Nội</p>
+                            <p><i class="fa-solid fa-phone"></i>(024) 8582 0808</p>
+                        </div>
+                        <div class="col-sm-5" style="margin-left: 10px;">
+                            <h6>Cơ sở HCM</h6>
+                            <p><i class="fa-solid fa-location-dot"></i>Tòa nhà QTSC9 (toà T), đường Tô Ký, phường Tân Chánh Hiệp, quận 12, TP HCM.</p>
+                            <p><i class="fa-solid fa-phone"></i>0901 660 002 – 028 6686 6486</p>
+                        </div>
+                        </div>
+                </div>
+                </div>
+         </div>
+         <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel">Thông tin sản phẩm</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/ip.jpg" alt="Điện thoại iPhone 15 tím" width="100%">
+                        <h5 class="mt-3">Điện thoại iPhone 15 tím</h5>
+                        <p>Giá cũ: <span class="text-decoration-line-through">25.000.000</span></p>
+                        <p>Giá khuyến mãi: <span style="color: red;">20.000.000</span></p>
+                        <form>
+                            <div>
+                                <label for="name" class="form-label">Nhập số lượng</label>
+                                <input type="text" placeholder="Nhập họ và tên">
+                            </div>
+                            <div>
+                                <label for="phone" class="form-label">Số điện thoại</label>
+                                <input type="text" placeholder="Nhập số điện thoại">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đặt hàng</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+</body>
+
+</html>
